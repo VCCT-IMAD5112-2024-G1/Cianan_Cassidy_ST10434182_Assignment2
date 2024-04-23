@@ -24,6 +24,20 @@ class TamagochiAppMain : AppCompatActivity() {
         Feed.setOnClickListener{
 
         }
+        Dirt.setOnClickListener{
 
+        }
+        Pet.setOnClickListener {
+
+        }
+        Hand.setOnClickListener{
+
+        }
+        Food.setOnClickListener{
+
+        }
+        Soap.setOnClickListener{
+
+        }
     }
 }
