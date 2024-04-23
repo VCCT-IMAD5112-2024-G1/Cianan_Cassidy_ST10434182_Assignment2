@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TamagochiApp</string>
+    <string name="title">Welcome Cleo, Your Tamagochi Pet</string>
+    <string name="start">Get Started</string>
+    <string name="feed">Feed</string>
+    <string name="dirt">Dirt</string>
+    <string name="emotion">Pet</string>
+    <string name="hunger">Hunger</string>
+    <string name="cleanliness">Clean</string>
+    <string name="happy">Happy</string>
+</resources>
