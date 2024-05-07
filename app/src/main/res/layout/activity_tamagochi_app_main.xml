@@ -17,7 +17,7 @@
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="20dp"
         android:contentDescription="@null"
-        app:layout_constraintBottom_toTopOf="@+id/Dirt"
+        app:layout_constraintBottom_toTopOf="@+id/dirt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/dog_start" />
 
     <Button
-        android:id="@+id/Feed"
+        android:id="@+id/feed"
         android:layout_width="103dp"
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
@@ -36,12 +36,12 @@
         android:text="@string/feed"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toStartOf="@+id/Dirt"
+        app:layout_constraintEnd_toStartOf="@+id/dirt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/Dirt"
+        android:id="@+id/dirt"
         android:layout_width="96dp"
         android:layout_height="56dp"
         android:layout_marginStart="19dp"
@@ -52,12 +52,12 @@
         android:text="@string/dirt"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Pet"
-        app:layout_constraintStart_toEndOf="@+id/Feed"
+        app:layout_constraintEnd_toStartOf="@+id/pet"
+        app:layout_constraintStart_toEndOf="@+id/feed"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/Pet"
+        android:id="@+id/pet"
         android:layout_width="95dp"
         android:layout_height="58dp"
         android:layout_marginStart="19dp"
@@ -69,7 +69,7 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Dirt"
+        app:layout_constraintStart_toEndOf="@+id/dirt"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Feed" />
+        app:layout_constraintTop_toBottomOf="@+id/feed" />
 
     <TextView
         android:id="@+id/textView3"
@@ -106,8 +106,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="68dp"
-        android:layout_height="39dp"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="307dp"
@@ -120,7 +120,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
-        android:id="@+id/Food"
+        android:id="@+id/food"
         android:layout_width="104dp"
         android:layout_height="115dp"
         android:visibility="invisible"
@@ -133,7 +133,7 @@
         app:srcCompat="@drawable/better_dog_food" />
 
     <ImageView
-        android:id="@+id/Hand"
+        android:id="@+id/hand"
         android:layout_width="238dp"
         android:layout_height="168dp"
         android:visibility="invisible"
@@ -146,7 +146,7 @@
         app:srcCompat="@drawable/hands_2" />
 
     <ImageView
-        android:id="@+id/Soap"
+        android:id="@+id/soap"
         android:layout_width="156dp"
         android:layout_height="140dp"
         android:src="@drawable/clean"
@@ -157,5 +157,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/hungerMeter"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <TextView
+        android:id="@+id/dirtMeter"
+        android:layout_width="119dp"
+        android:layout_height="35dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <TextView
+        android:id="@+id/happyMeter"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
